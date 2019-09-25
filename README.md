@@ -43,7 +43,9 @@ average_posts_month - Average number of posts per user / month ( ## )
 
 ## PHPunit test
 
-Simple unit test /tests/ParserTest.php
+Simple unit test 
+
+/tests/ParserTest.php
 
 
 
