@@ -23,7 +23,7 @@ PHP version 7.2 or later
 
 $ composer install
 
-## To run task
+## To run the task
 
 $ cd src
 
@@ -40,6 +40,20 @@ longest - Longest post by character length / month ( id | length)
 total_posts - Total posts split by week ( number of week { count: ## } )
 
 average_posts_month - Average number of posts per user / month ( ## )
+
+## To change the User
+
+    <?php
+    
+    namespace Receiver\Parser;
+    
+    use Receiver\Provider\ProviderInterface;
+    
+    class Parser implements ParserInterface
+    {
+        protected $data;
+        protected $result = array();
+        protected $user = 'Rosann Eide';
 
 ## PHPunit test
 

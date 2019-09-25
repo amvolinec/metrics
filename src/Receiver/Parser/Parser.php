@@ -8,6 +8,7 @@ class Parser implements ParserInterface
 {
     protected $data;
     protected $result = array();
+    protected $user = 'Rosann Eide';
 
     public function __construct()
     {
@@ -43,7 +44,7 @@ class Parser implements ParserInterface
     public function parseData(): void
     {
         foreach ($this->data['data']['posts'] AS $post) {
-            if ('Rosann Eide' === $post['from_name']) {
+            if ($this->user === $post['from_name']) {
 
                 $post_len = strlen($post['message']);
                 $month = substr($post['created_time'], 0, 7);
