@@ -9,7 +9,7 @@ $ composer install
 
 PHP version 7.2 or later
 
-## Run task
+## To run task
 
 cd src
 
