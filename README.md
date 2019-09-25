@@ -31,6 +31,10 @@ $ php script.php
 
 ## Result 
 
+Fictional user: 'Rosann Eide'. 
+
+    protected $user = 'Rosann Eide'; // src/Receiver/Parser/Parser.php : 11 
+
 JSON string, where:
 
 average - Average character length / post / month (length | count | average)
@@ -40,20 +44,6 @@ longest - Longest post by character length / month ( id | length)
 total_posts - Total posts split by week ( number of week { count: ## } )
 
 average_posts_month - Average number of posts per user / month ( ## )
-
-## To change the User
-
-    <?php
-    
-    namespace Receiver\Parser;
-    
-    use Receiver\Provider\ProviderInterface;
-    
-    class Parser implements ParserInterface
-    {
-        protected $data;
-        protected $result = array();
-        protected $user = 'Rosann Eide';
 
 ## PHPunit test
 
