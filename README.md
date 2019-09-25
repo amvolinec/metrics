@@ -31,7 +31,7 @@ $ php script.php
 
 ## Result 
 
-Fictional user: 'Rosann Eide'. 
+For fictional user 'Rosann Eide'.
 
     protected $user = 'Rosann Eide'; // src/Receiver/Parser/Parser.php : 11 
 
