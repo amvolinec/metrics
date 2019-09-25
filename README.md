@@ -10,10 +10,10 @@ src/script.php
     
     require __DIR__ . '/../vendor/autoload.php';
     
-    **$receiver = new Metrics();**
+    $receiver = new Metrics();
     
     // Return JSON string with result
-    echo **$receiver->fetch()** . PHP_EOL;
+    echo $receiver->fetch() . PHP_EOL;
 
 ## Requirements
 
@@ -53,7 +53,7 @@ average_posts_month - Average number of posts per user / month ( ## )
     {
         protected $data;
         protected $result = array();
-        **protected $user = 'Rosann Eide';**
+        protected $user = 'Rosann Eide';
 
 ## PHPunit test
 
