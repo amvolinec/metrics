@@ -1,5 +1,8 @@
 ## Task from Supermetrics
+
 Aleksandr Volynec
+
+/src/script.php
 
     <?php
     
@@ -37,6 +40,10 @@ longest - Longest post by character length / month ( id | length)
 total_posts - Total posts split by week ( number of week { count: ## } )
 
 average_posts_month - Average number of posts per user / month ( ## )
+
+## PHPunit test
+
+Simple unit test /tests/ParserTest.php
 
 
 
