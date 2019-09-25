@@ -1,4 +1,4 @@
-## Task
+## Task from Supermetrics
 Aleksandr Volynec
 
     <?php
