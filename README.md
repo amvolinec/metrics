@@ -1,6 +1,6 @@
 ## Task from Supermetrics
 
-src/script.php
+**src/script.php**
 
     <?php
     
@@ -47,7 +47,7 @@ average_posts_month - Average number of posts per user / month ( ## )
 
 Simple unit test 
 
-tests/ParserTest.php
+**tests/ParserTest.php**
 
 
 
