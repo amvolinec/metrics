@@ -1,7 +1,5 @@
 ## Task from Supermetrics
 
-Aleksandr Volynec
-
 src/script.php
 
     <?php
